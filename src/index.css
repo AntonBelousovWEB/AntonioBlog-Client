@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'MonoLisaItalic';
+    src: url('./resources/fonts/MonoLisaVariableItalic.woff2') format('woff2');
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MonoLisa';
+    src: url('./resources/fonts/MonoLisaVariableNormal.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+:root {
+    --font-mono-italic: 'MonoLisaItalic', sans-serif;
+    --font-mono-normal: 'MonoLisa', sans-serif;
+}
+
+body {
+    color: #1F2937;
+}
+
+hr {
+    height: 1px;
+    margin-bottom: 128px;
+    background-color: rgb(226 232 240);
+}
+
+section {
+    margin-bottom: 128px;
+}
+
+.container {
+    max-width: 72rem;
+    padding: 0px 1.25rem 0px 1.25rem;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f3f4f6;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b6b6b6b3;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #949494;
+}

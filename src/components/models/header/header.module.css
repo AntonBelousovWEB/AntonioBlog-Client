@@ -1,0 +1,13 @@
+.logo {
+    width: 125px;
+}
+
+.wrap_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    cursor: pointer;
+}

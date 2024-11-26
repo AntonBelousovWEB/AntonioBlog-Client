@@ -1,0 +1,19 @@
+button {
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border-radius: 9999px;
+    background-color: rgb(17 24 39);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+    color: rgb(255 255 255);
+}
+
+button:hover {
+    background-color: #374151;
+}
